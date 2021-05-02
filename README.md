@@ -9,4 +9,4 @@ Clone the sample code and play around with the classes and the xml files to crea
 - Coroutines
 
 # 🕹 Sample Video
-![a](https://user-images.githubusercontent.com/41232970/116807793-cd42e480-ab3d-11eb-8d42-950401b085dd.gif)
+<img src="https://user-images.githubusercontent.com/41232970/116807793-cd42e480-ab3d-11eb-8d42-950401b085dd.gif" style="width:500px;height:600px;"/>
