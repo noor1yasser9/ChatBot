@@ -5,7 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.nurbk.ps.data.Message
+import com.nurbk.ps.chatbot.data.Message
 import com.nurbk.ps.chatbot.utils.Constants.RECEIVE_ID
 import com.nurbk.ps.chatbot.utils.Constants.SEND_ID
 import com.nurbk.ps.chatbot.utils.BotResponse
