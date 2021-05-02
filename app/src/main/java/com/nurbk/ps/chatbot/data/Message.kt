@@ -1,3 +1,3 @@
-package com.nurbk.ps.data
+package com.nurbk.ps.chatbot.data
 
 data class Message(val message: String, val id: String, val time: String)
