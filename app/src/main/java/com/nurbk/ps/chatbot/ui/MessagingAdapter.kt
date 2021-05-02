@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.nurbk.ps.data.Message
+import com.nurbk.ps.chatbot.data.Message
 import com.nurbk.ps.chatbot.utils.Constants.RECEIVE_ID
 import com.nurbk.ps.chatbot.utils.Constants.SEND_ID
 import com.nurbk.ps.chatbot.R
