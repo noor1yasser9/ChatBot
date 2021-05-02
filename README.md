@@ -4,6 +4,6 @@ This is a sample app that can be used to experiment with creating real chat apps
 Clone the sample code and play around with the classes and the xml files to create your own ChatBot app!
 
 
-✨ Features Project Android:
+# ✨ Features Project Android:
 - 100% Kotlin
 - Coroutines
