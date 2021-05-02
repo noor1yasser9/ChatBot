@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#454545"
+        android:textColorHint="#ddd"
+        android:hint="Type a message..."
+        android:textColor="@android:color/white"
+        android:inputType="textShortMessage"
+        android:padding="10dp"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_send"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/et_message"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        app:tint="#858585"
+        android:src="@drawable/ic_baseline_send_24"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/et_message"
+        app:layout_constraintEnd_toEndOf="@+id/et_message"
+        app:layout_constraintTop_toTopOf="@+id/et_message" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_messages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/et_message"
+        android:layout_below="@+id/et_message"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toTopOf="@+id/et_message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="20"
+        tools:listitem="@layout/message_item" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
